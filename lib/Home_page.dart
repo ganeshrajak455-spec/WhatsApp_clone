@@ -5,13 +5,10 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(appBar: AppBar(title: Text("WhatsApp"),
+    return Scaffold(appBar: AppBar(title: Text("WhatsApp"), backgroundColor: Colors.blueGrey,
     actions: [IconButton(onPressed: (){}, icon: Icon(Icons.camera_outdoor)),
-              IconButton(onPressed: (){}, icon: Icon(Icons.three_k_plus))],
-              
+              IconButton(onPressed: (){}, icon: Icon(Icons.three_k_plus))],     
     ),
-    
-    
     );
   }
 }
